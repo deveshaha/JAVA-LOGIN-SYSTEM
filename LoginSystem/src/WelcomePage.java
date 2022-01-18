@@ -1,6 +1,7 @@
 import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.SwingConstants;
 
 public class WelcomePage {
 	
@@ -12,6 +13,7 @@ public class WelcomePage {
 		welcomeLabel.setBounds(0,0,200,35);
 		welcomeLabel.setFont(new Font(null,Font.PLAIN,25));
 		welcomeLabel.setText("Hello " + userID + "!");
+
 		
 		frame.add(welcomeLabel);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
