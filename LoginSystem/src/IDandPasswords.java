@@ -9,7 +9,6 @@ public class IDandPasswords {
 		logininfo.put("Admin", "Password");
 		logininfo.put("User2", "U2Password");
 		logininfo.put("User3", "U3Password");
-		logininfo.put("Devesh", "Devesh");
 	}
 	
 	protected HashMap<String, String> getLogininfo() {
